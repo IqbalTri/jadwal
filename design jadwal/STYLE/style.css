@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Delicious+Handrawn&family=Permanent+Marker&display=swap');
+body{
+    background-color: #3F1E60;
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+:root{
+    --border-body: 30px;
+    --border-tggl: 10px;
+    --font-day: 'Delicious Handrawn', cursive;
+    --font-jadwal: 'roboto', sans-serif;
+    --line: 3px solid #000;
+}
+
+/* background start */
+
+.big-star{
+    position: absolute;
+    width: 590px;
+    height: 560px;
+    left: -115px;
+    top: -48px;
+    z-index: 1;
+}
+
+.earth{
+    position: absolute;
+    width: 600px;
+    height: 548px;
+    left: 162px;
+    top: -180px;
+    z-index: 1;
+}
+
+.saturnus-lib{
+    position: absolute;
+    width: 500px;
+    height: 412px;
+    left: 1017px;
+    top: -52px;
+}
+
+.star-one{
+    position: absolute;
+    width: 247px;
+    height: 161px;
+    left: 856px;
+    top: -10px;
+}
+
+.star{
+    position: absolute;
+    width: 247px;
+    height: 151px;
+    left: 1px;
+    top: 567px;
+}
+
+.satelite{    
+    position: absolute;
+    width: 492px;
+    height: 377px;
+    left: 276px;
+    top: 415px;
+}
+
+.venus{
+    position: absolute;
+    width: 910px;
+    height: 1010px;
+    left: -460px;
+    top: 648px;
+}
+
+/* background end */
+
+/* style start */
+.border{
+    position: absolute;
+    border-radius: var(--border-body);
+    background-color: #ffff;
+    width: 300px;
+    height: 400px;
+    z-index: 2;
+    filter: drop-shadow(20px 23px 4px rgba(0, 0, 0, 0.25));
+}
+
+.line-vertical{
+    border: var(--line);
+    transform: rotate(90deg);
+}
+
+.line-ver-senin{
+    position: absolute;
+    width: 362px;
+    height: 0px;
+    left: -36px;
+    bottom: 180.5px;
+}
+
+.line-horizontal{
+    border: var(--line);
+}
+.style-font{
+    font-family: var(--font-jadwal);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.pict{
+    z-index: 1;
+    transform: rotate(-30deg);
+    width: 141px;
+    position: absolute;
+    left: 225px;
+    top: 335px;
+}
+
+/* style end */
+
+/* senin start */
+
+.senin{
+    left: 150px;
+    top: 57px;
+}
+
+
+.box-senin{
+    position: absolute;
+    left: 40px;
+}
+
+.day-senin{
+    font-family: var(--font-day);
+    border-radius: var(--border-tggl);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    width: 130px;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;    
+    background-color: #29D0B2;
+    left: 47px;
+    top: -67px;
+}
+
+.line-hor-senin{
+    position: absolute;
+    height: 0px;
+    width: 294px;
+    top: 73px;
+}
+
+
+.hours{
+    position: absolute;
+    width: 120px;
+    left: 45px;
+    height: 30px;
+    top: 40px;
+}
+
+.schedule{
+    position: absolute;
+    width: 120px;
+    left: 180px;
+    height: 30px;
+    top: 40px;
+}
+
+.style-jadwal{
+    font-family: var(--font-jadwal);
+    font-size: 18px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.list-jam{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    top: 60px;
+    left: -19px;
+}
+
+.list-mapel{
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    top: 60px;
+    left: 125px;
+    text-align: center;
+}
+
+/* senin end */
+
+/* selasa start */
+
+.selasa{
+    left: 500px;
+    top: 57px;
+}
+
+.box-selasa{
+    position: absolute;
+    left: 35px;
+}
+
+.day-selasa{
+    font-family: var(--font-day);
+    border-radius: var(--border-tggl);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    width: 130px;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;    
+    background-color: #65BDEE;
+    left: 47px;
+    top: -67px;
+}
+
+/* selasa end */
+
+/* rabu start */
+.rabu{
+    left: 850px;
+    top: 57px;
+}
+
+.box-rabu{
+    position: absolute;
+    left: 35px;
+}
+
+.day-rabu{
+    font-family: var(--font-day);
+    border-radius: var(--border-tggl);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    width: 130px;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;    
+    background-color: #2EDADA;
+    left: 47px;
+    top: -67px;
+}
+/* rabu end */
+
+/* kamis start */
+.kamis{
+    left: 150px;
+    top: 550px;
+}
+
+.box-kamis{
+    position: absolute;
+    left: 35px;
+}
+
+.day-kamis{
+    font-family: var(--font-day);
+    border-radius: var(--border-tggl);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    width: 130px;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;    
+    background-color: #FE5656;
+    left: 47px;
+    top: -67px;
+}
+/* kamis end */
+
+/* jumat start */
+.jumat{
+    left: 500px;
+    top: 550px;
+}
+
+.box-jumat{
+    position: absolute;
+    left: 35px;
+}
+
+.day-jumat{
+    font-family: var(--font-day);
+    border-radius: var(--border-tggl);
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    width: 130px;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;    
+    background-color: #E1D034;
+    left: 47px;
+    top: -67px;
+}
+/* jumat end */
